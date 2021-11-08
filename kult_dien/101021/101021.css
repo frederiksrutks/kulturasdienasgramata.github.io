@@ -1,0 +1,111 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	display: grid;
+	grid-template-rows: auto 50px;
+	grid-template-columns: 300px auto;
+	grid-template-areas:
+		'aside article'
+		'aside footer';
+	background-color: #000000;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+aside {
+  grid-area: aside;
+  float: left;
+  background-color: #161616;
+  padding: 30px;
+  color: white;
+}
+#ieraksti {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 5px;
+  border: 2px solid #333;
+  
+}
+.ieraksti {
+  float: centre;
+}
+.ieraksti {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.ieraksti:hover {
+  background-color: #111;
+}
+
+
+article {
+  background-image: url('fons.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  grid-area: article;
+  float: right;
+  padding: 20px;
+  bottom: 0;
+  background-color: #f1f1f1;
+  height: auto; 
+  text-align: justify;
+}
+section {
+  grid-area: section;
+  float: center;
+  padding: 20px;
+  bottom: 0;
+  background-color: #111;
+  height: auto; 
+  text-align: justify;
+  max-width: 800px;
+  margin: auto;
+  color: rgb(155, 162, 168);
+}
+.column {
+	float: left;
+	width: 23.75%;
+	padding: 5px;
+}
+.row {
+	content: "";
+	clear: both;
+	display: table;
+}
+	
+	
+
+footer {
+	background-color: #100119;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
